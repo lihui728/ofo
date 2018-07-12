@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<view class='container'>
+  <map latitude='{{latitude}}' longitude='{{longitude}}' id='ofo-map' scale='16' show-location='true' controls='{{controls}}' bindcontroltap='bindcontroltap'></map><!--latitude:组件上的属性，纬度 longitude:经度  scale缩放地   图，默认16
+  {{latitude}},{{longitude}}变量
+  -->
+   <!--<button>123</button> map组件在层级的最顶层，下面设置button显示不出来，所以提供了控件的属性controls="{{}}"，在地图上显示控件，控件不随着地图移动。--> 
+   <!-- bindcontroltap='bindcontroltap->变量' 绑定点击事件 -->
+</view>

@@ -1,0 +1,9 @@
+/* pages/index/index.wxss */
+.container{
+  width:100%;
+  height:100vh;/*vh把当前屏幕分成一百份，100个vh就沾满了整个屏幕*/
+}
+#ofo-map{
+  width:100%;
+  height:100%;
+}
